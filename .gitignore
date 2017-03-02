@@ -37,6 +37,10 @@ config.rst
 
 cifar-10-*
 
+# Ignore Pickles
+
+preprocess_*.p
+
 # Ignore exports
 
 export/*
