@@ -41,6 +41,11 @@ cifar-10-*
 
 preprocess_*.p
 
+# Ignore classifications
+
+checkpoint
+image_classification.*
+
 # Ignore exports
 
 export/*
