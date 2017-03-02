@@ -37,6 +37,15 @@ config.rst
 
 cifar-10-*
 
+# Ignore Pickles
+
+preprocess_*.p
+
+# Ignore classifications
+
+checkpoint
+image_classification.*
+
 # Ignore exports
 
 export/*
